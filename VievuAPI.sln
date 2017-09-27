@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VievuAPI", "VievuAPI\VievuAPI.csproj", "{2C5B1F62-291E-435B-B93A-3DB0D9C75EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C5B1F62-291E-435B-B93A-3DB0D9C75EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5B1F62-291E-435B-B93A-3DB0D9C75EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5B1F62-291E-435B-B93A-3DB0D9C75EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5B1F62-291E-435B-B93A-3DB0D9C75EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1123FD53-FC3D-4B89-B75E-40D9A84452E0}
+	EndGlobalSection
+EndGlobal
