@@ -20,7 +20,7 @@ namespace VievuAPI
         public void APIGet()
         {
 
-            client = Client.GetClient("http://vievuautomationapi.cloudapp.net/api/TestData");
+            client = Client.GetClient("Rest URL");
             request = Request.SetRequestVerb("GET");
             // request = Request.SetResource(Method.GET, "/394BA378-6299-4DD7-92EB-5454E8FD021A");
             request = Request.AddRequestHeaders("Content-Type", "application/json");
@@ -33,7 +33,7 @@ namespace VievuAPI
         {
             JsonRequestBody Jbody = new JsonRequestBody();
             String requestbody = Jbody.GetJsonbody();
-            client = Client.GetClient("http://vievuautomationapi.cloudapp.net/Api/TestResults");
+            client = Client.GetClient("Rest URL");
             request = Request.SetRequestVerb("POST");
             request = Request.AddRequestHeaders("Content-Type", "application/json");
             request = Request.AddRequestBody(requestbody);
